@@ -1,0 +1,79 @@
+/* Estilo básico para toda la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo general de la página */
+    color: #333; /* Color del texto */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #4CAF50; /* Color de fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para el menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #333; /* Fondo del menú de navegación */
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white; /* Color del texto en el menú */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #4CAF50; /* Color del texto cuando se pasa el ratón por encima */
+}
+
+/* Estilo para las secciones */
+section {
+    margin: 20px;
+    background-color: #fff; /* Fondo de las secciones */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados para las secciones */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+/* Estilo para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9; /* Fondo de la tabla */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #333; /* Color del texto en tablas */
+}
+
+th {
+    background-color: #4CAF50; /* Fondo de los encabezados de la tabla */
+    color: white; /* Color del texto en encabezados de la tabla */
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Fondo del pie de página */
+    color: white; /* Color del texto en el pie de página */
+}
